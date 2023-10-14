@@ -1,0 +1,264 @@
+/* *{
+    margin:0;
+    padding: 0;
+    font-family:"Poppins"sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #2e364a;
+}
+.timeline{
+    position: relative;
+    max-width: 1200px;
+    margin: 100px auto;
+    
+}
+.container{
+    padding:10px 50px;
+    position: relative;
+    width:50%;
+}
+.text-box{
+    padding:20px 30px;
+    background: #fff;
+    position: relative;
+    border-radius:6px;
+    font-size: 15px;
+}
+.left-container{
+    left: 0;
+}
+.right-container{
+    left: 50%;
+}
+.container img{
+    position: absolute;
+    width: 40px;
+    height:40px;
+    border-radius:60%;
+    right: -20px;
+    top: 32px;
+    z-index:10px;
+}
+.right-container img{
+    left: -20px;
+}
+.timeline::after{
+    content: "";
+    position: absolute;
+    width:6px;
+    height:100%;
+    background: #fff;
+    top:0;
+    left: 75%;
+    margin-left: -3px;
+    z-index: -1;
+}
+.text-box h2{
+    font-weight:600;
+}
+.text-box small{
+    display: inline-block;
+    margin-bottom:15px;
+    
+} */
+.btn1{
+    display: flex;
+    gap:20px;
+}
+.navbar-nav a{
+    font-size:18px;
+    margin:7px;
+}
+.accueil1{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    align-items: center; 
+}
+.accueil2{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:21px;
+ }
+ .accueil3{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:41px;
+ }
+ .accueil4{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:61px;
+ }
+ .i{
+    position: relative;
+    left:98px;
+    bottom:100px;
+ }
+ .ii{
+    position: relative;
+    left:190px;
+    bottom:86px;
+ }
+ .card-img{
+    width:255px;
+    height:240px;
+    /* object-fit: cover; */
+}
+/* **************temoin************** */
+.temoin{
+    position:relative;
+    top:50px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border:1px solid black;
+    width:260px;
+    height:320px;
+    border-radius: 30px;
+    flex-direction: column;
+}
+.temoin2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.temoin1{
+    width: 260px;
+    height:200px;
+    border-radius: 30px;
+    position: relative;
+    bottom:49px;
+    /* object-fit:contain; */
+
+}
+/* *******************Accueil******************** */
+.active1{
+    gap:20px;
+}
+/* *****************Connexion******************** */
+.shopy{
+    width:100px;
+}
+ .input{
+    width:410px;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-color: orange;
+} 
+.input1{
+    width:410px;
+}
+legend{
+    position: relative;
+    right:130px;
+}
+.p{
+    /* position: relative;
+    left:130px; */
+    display: flex;
+    justify-content:space-evenly;
+    margin-left:180px;
+}
+.p1{
+}
+.text{
+    width:200px;
+    border: none;
+}
+/* ***************Footer******************* */
+footer{
+    position: relative;
+    top:92px;
+}
+/* -------------------Inscription-------------------- */
+.legend1{
+    position: relative;
+    right:140px;
+}
+.legend2{
+    position: relative;
+    right:109px;
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+     .accueil1,.accueil3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .accueil2,.accueil4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .active1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    /* .card-img{
+        width:840px;
+    } */
+    /* ***********temoin**************** */
+    .temoin2{
+        display: flex;
+        flex-direction: column;
+        /* gap:20px; */
+    }
+    .temoin{
+        width:350px;
+
+    }
+    .temoin1{
+        height:150px;
+        width:350px;
+    }
+
+    /* ********************************** */
+    .input1{
+        width:340px;
+
+    }
+    legend{
+        position: relative;
+        right:90px;
+    }
+    .legend1{
+        position: relative;
+        right:100px;
+    }
+    .legend2{
+        position: relative;
+        right:100px;
+    
+    }
+    .input{
+        width:300px;
+        /* position: relative;
+        left: 10px; */
+    }
+    .btn1{
+        position: relative;
+        top:3px;
+    }
+    
+    }

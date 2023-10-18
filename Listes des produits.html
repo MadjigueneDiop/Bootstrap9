@@ -13,7 +13,7 @@
   <!-- ---------------------navbar------------------------- -->
   <nav class="navbar navbar-expand-lg bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="Shop.png" style="width: 60px;" alt=""></a>
+      <a class="navbar-brand" href="index.html"><img src="Shop.png" style="width: 60px;" alt=""></a>
       <button class="navbar-toggler text-warning bg-warning" type="button" data-bs-toggle="collapse"
        data-bs-target="#navbarTogglerDemo02"
         aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,8 +34,7 @@
             </a>
           </li>
           <form class="d-flex">
-            <input class="form-control m-auto" type="search" placeholder="Search" aria-label="Search" 
-            style="width: 280px; height: 43px;">
+            <input class="form-control m-auto" type="search" placeholder="Search" aria-label="Search">
             <i class="fa-solid fa-cart-shopping text-warning mt-3 fs-4 px-3 "></i>
           </form>
         </ul>
@@ -55,20 +54,18 @@
   <div class="col-md-12">
     <h1 class="text-center text-warning mt-5 fs-2 fw-bold mb-5">Listes des produits</h1>
   </div>
- <div class="d-flex accueil1">
+  <div class="d-flex accueil1">
     <div class="mada17">
         <div class="card" style="width: 16rem; height:24rem;">
-            <img src="Shop1.png" class="card-img-top w-100" alt="...">
+            <img src="Shop1.png" class="card-img-top w-100 " alt="...">
             <div class="card-body">
               <p class="card-text text-warning fw-bold  ">Blousons Nike</p>
                 <p class="fs-6 text-warning fw-bold ">60£ </p>
             </div>
-                    <button type="button" class="btn " data-bs-toggle="modal"
-                     data-bs-target="#staticBackdrop" id="bouton">
+                    <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="bouton">
             <i class="fa-solid fa-plus text-warning i fw-bold fs-6"></i>
           </button>
-          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" 
-          data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
@@ -79,15 +76,15 @@
                   <div class="w-50 mx-auto">
                     <img src="Shop1.png" class="w-100" alt="une image">
                   </div>
-                  <p class="w-50 mx-auto">lorem ipsum dolar sit amet , consecteur adipiscing elit.
-                     Sunt ut voluptatum eius sapiente , totam reciendis temploribus qui quibusdam
+                  <p class="w-50 mx-auto text-warning">lorem ipsum dolar sit amet , consecteur adipiscing elit. Sunt ut voluptatum eius sapiente , totam reciendis temploribus qui quibusdam
                     sit vero unde , sed incidunt et ea quo dolore laudantium consecteur!
                 </p>
                 </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-warning text-white" 
-                  data-bs-dismiss="modal">Close projet</button>
+                <div class="modal-footer justify-content-end">
+                <a href="Formulaire de contact.html">
+                  <button class="btn bg-warning text-white " type="submit">Commander</button></a>
                 </div>
+          
               </div>
             </div>
           </div>
@@ -100,12 +97,10 @@
                 <p class="card-text text-warning fw-bold ">Ensemble Nike</p>
                   <p class="fs-6  fw-bold text-warning ">67£</p>
               </div>
-            <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop1"
-             id="bouton">
+            <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop1" id="bouton">
               <i class="fa-solid fa-plus text-warning i fw-bold fs-6 "></i>                  
             </button>
-            <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" 
-            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
               <div class="modal-dialog modal-lg">
                 <div class="modal-content">
                   <div class="modal-header">
@@ -116,17 +111,15 @@
                     <div class="w-50 mx-auto">
                       <img src="Shop2.png" class="w-100" alt="une image">
                     </div>
-                    <p class="w-50 mx-auto">lorem ipsum dolar sit amet , consecteur adipiscing elit.
-                       Sunt ut voluptatum eius sapiente , totam reciendis temploribus qui quibusdam
+                    <p class="w-50 mx-auto text-warning mt-3">lorem ipsum dolar sit amet , consecteur adipiscing elit. Sunt ut voluptatum eius sapiente , totam reciendis temploribus qui quibusdam
                       sit vero unde , sed incidunt et ea quo dolore laudantium consecteur!
                   </p>
-                  <p class="text-center pt-5"><span class="fw-bold">Client:</span> Southwest</p>
-                  <p class="text-center"><span class="fw-bold">Category:</span> website design</p>
                   </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-warning text-white" data-bs-dismiss="modal">
-                      Close projet</button>
-                  </div>
+                  <div class="modal-footer justify-content-end">
+                    <a href="Formulaire de contact.html">
+                      <button class="btn bg-warning text-white  " type="submit">Commander</button></a>
+                    </div>
+    
                 </div>
               </div>
             </div>
@@ -141,35 +134,29 @@
                     <p class="fs-6 fw-bold text-warning">Pull-Over</p>
                         <p class=" fs-6 fw-bold text-warning">80£</p>
                   </div>
-                  <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop2" 
-                  id="bouton">
+                  <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop2" id="bouton">
                     <i class="fa-solid fa-plus text-warning i fw-bold fs-6"></i>                        
                   </button>
-                  <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" 
-                  data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" 
-                  aria-hidden="true">
+                  <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                       <div class="modal-content">
                         <div class="modal-header">
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-                          </button>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
                           <h2 class="text-center text-upercase py-5 text-warning ">Pull-Over</h2>
                           <div class="w-50 mx-auto">
                             <img src="Shop3.png" class="w-100" alt="une image">
                           </div>
-                          <p class="w-50 mx-auto">lorem ipsum dolar sit amet , consecteur adipiscing elit.
-                             Sunt ut voluptatum eius sapiente , totam reciendis temploribus qui quibusdam
+                          <p class="w-50 mx-auto text-warning mt-3">lorem ipsum dolar sit amet , consecteur adipiscing elit. Sunt ut voluptatum eius sapiente , totam reciendis temploribus qui quibusdam
                             sit vero unde , sed incidunt et ea quo dolore laudantium consecteur!
                         </p>
-                        <p class="text-center pt-5"><span class="fw-bold">Client:</span> Southwest</p>
-                        <p class="text-center"><span class="fw-bold">Category:</span> website design</p>
                         </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-warning text-white" data-bs-dismiss="modal">
-                            Close projet</button>
-                        </div>
+                        <div class="modal-footer justify-content-end">
+                          <a href="Formulaire de contact.html">
+                            <button class="btn bg-warning text-white " type="submit">Commander</button></a>
+                          </div>
+          
                       </div>
                     </div>
                   </div>
@@ -184,8 +171,7 @@
                       <p class="fs-6 text-warning fw-bold">Pull-Over Lakers</p>
                           <p class="text-warning fs-6 fw-bold">100£</p>
                   </div>
-                  <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop4"
-                   id="bouton">
+                  <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop4" id="bouton">
                     <i class="fa-solid fa-plus text-warning i fw-bold fs-6"></i>
                   </button>
                   <div class="modal fade" id="staticBackdrop4" data-bs-backdrop="static"
@@ -194,25 +180,22 @@
                     <div class="modal-dialog modal-lg">
                       <div class="modal-content">
                         <div class="modal-header">
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-                          </button>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
                           <h2 class="text-center text-upercase py-5 text-warning">Pull-Over Lakers</h2>
                           <div class="w-50 mx-auto">
                             <img src="Shop4.png" class="w-100" alt="une image">
                           </div>
-                          <p class="w-50 mx-auto">lorem ipsum dolar sit amet , consecteur adipiscing elit. 
-                            Sunt ut voluptatum eius sapiente , totam reciendis temploribus qui quibusdam
+                          <p class="w-50 mx-auto text-warning mt-3">lorem ipsum dolar sit amet , consecteur adipiscing elit. Sunt ut voluptatum eius sapiente , totam reciendis temploribus qui quibusdam
                             sit vero unde , sed incidunt et ea quo dolore laudantium consecteur!
                         </p>
-                        <p class="text-center pt-5"><span class="fw-bold">Client:</span> Southwest</p>
-                        <p class="text-center"><span class="fw-bold">Category:</span> website design</p>
                         </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-warning text-white" data-bs-dismiss="modal">
-                            Close projet</button>
-                        </div>
+                        <div class="modal-footer justify-content-end">
+                          <a href="Formulaire de contact.html">
+                            <button class="btn bg-warning text-white " type="submit">Commander</button></a>
+                          </div>
+          
                       </div>
                     </div>
                   </div>
@@ -227,33 +210,29 @@
                     <p class="card-text text-warning fw-bold ">Blousons Nike</p>
                       <p class="fs-6 text-warning fw-bold">60£ </p>
                   </div>
-                  <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop5"
-                   id="bouton">
+                  <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop5" id="bouton">
                     <i class="fa-solid fa-plus text-warning i fw-bold fs-6 "></i>
                   </button>
                   <div class="modal fade" id="staticBackdrop5" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                       <div class="modal-content">
                         <div class="modal-header">
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-                          </button>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
                           <h2 class="text-center text-upercase py-5 text-warning">Blousons Nike</h2>
                           <div class="w-50 mx-auto">
                             <img src="Shop1.png" class="w-100" alt="une image">
                           </div>
-                          <p class="w-50 mx-auto">lorem ipsum dolar sit amet , consecteur adipiscing elit.
-                             Sunt ut voluptatum eius sapiente , totam reciendis temploribus qui quibusdam
+                          <p class="w-50 mx-auto text-warning">lorem ipsum dolar sit amet , consecteur adipiscing elit. Sunt ut voluptatum eius sapiente , totam reciendis temploribus qui quibusdam
                             sit vero unde , sed incidunt et ea quo dolore laudantium consecteur!
                         </p>
-                        <p class="text-center pt-5"><span class="fw-bold">Client:</span> Southwest</p>
-                        <p class="text-center"><span class="fw-bold">Category:</span> website design</p>
                         </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-warning text-white" data-bs-dismiss="modal">
-                            Close projet</button>
-                        </div>
+                        <div class="modal-footer justify-content-end">
+                          <a href="Formulaire de contact.html">
+                            <button class="btn bg-warning text-white " type="submit">Commander</button></a>
+                          </div>
+
                       </div>
                     </div>
                   </div>
@@ -266,34 +245,29 @@
                       <p class="card-text text-warning fw-bold ">Ensemble Nike</p>
                         <p class="fs-6  fw-bold text-warning">67£</p>
                     </div>
-                    <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop6" 
-                    id="bouton">
+                    <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop6" id="bouton">
                       <i class="fa-solid fa-plus text-warning i fw-bold fs-6  "></i>
                     </button>
-                    <div class="modal fade" id="staticBackdrop6" data-bs-backdrop="static" 
-                    data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal fade" id="staticBackdrop6" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                       <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                           <div class="modal-header">
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-                            </button>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                           </div>
                           <div class="modal-body">
                             <h2 class="text-center text-upercase py-5 text-warning">Ensemble Nike</h2>
                             <div class="w-50 mx-auto">
                               <img src="Shop2.png" class="w-100" alt="une image">
                             </div>
-                            <p class="w-50 mx-auto">lorem ipsum dolar sit amet , consecteur adipiscing elit.
-                               Sunt ut voluptatum eius sapiente , totam reciendis temploribus qui quibusdam
+                            <p class="w-50 mx-auto text-warning mt-3">lorem ipsum dolar sit amet , consecteur adipiscing elit. Sunt ut voluptatum eius sapiente , totam reciendis temploribus qui quibusdam
                               sit vero unde , sed incidunt et ea quo dolore laudantium consecteur!
                           </p>
-                          <p class="text-center pt-5"><span class="fw-bold">Client:</span> Southwest</p>
-                          <p class="text-center"><span class="fw-bold">Category:</span> website design</p>
                           </div>
-                          <div class="modal-footer">
-                            <button type="button" class="btn btn-warning text-white" data-bs-dismiss="modal">
-                              Close projet</button>
-                          </div>
+                          <div class="modal-footer justify-content-end">
+                            <a href="Formulaire de contact.html">
+                              <button class="btn bg-warning text-white " type="submit">Commander</button></a>
+                            </div>
+            
                         </div>
                       </div>
                     </div>
@@ -308,12 +282,10 @@
                           <p class="fs-6 fw-bold text-warning">Pull-Over</p>
                               <p class=" fs-6 fw-bold text-warning">80£</p>
                       </div>
-                      <button type="button" class="btn " data-bs-toggle="modal" 
-                      data-bs-target="#staticBackdrop7" id="bouton">
+                      <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop7" id="bouton">
                         <i class="fa-solid fa-plus text-warning i fw-bold fs-6"></i>
                                   </button>
-                      <div class="modal fade" id="staticBackdrop7" data-bs-backdrop="static"
-                       data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                      <div class="modal fade" id="staticBackdrop7" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                         <div class="modal-dialog modal-lg">
                           <div class="modal-content">
                             <div class="modal-header">
@@ -321,21 +293,18 @@
                             </div>
                             <div class="modal-body">
                               <h2 class="text-center text-upercase py-5 text-warning">Pull-Over</h2>
-                              <p class="text-center pb-5">Lorem ipsum is dollar ameet consecteur</p>
                               <div class="w-50 mx-auto">
                                 <img src="Shop3.png" class="w-100" alt="une image">
                               </div>
-                              <p class="w-50 mx-auto">lorem ipsum dolar sit amet , consecteur adipiscing
-                                 elit. Sunt ut voluptatum eius sapiente , totam reciendis temploribus qui quibusdam
+                              <p class="w-50 mx-auto text-warning mt-3">lorem ipsum dolar sit amet , consecteur adipiscing elit. Sunt ut voluptatum eius sapiente , totam reciendis temploribus qui quibusdam
                                 sit vero unde , sed incidunt et ea quo dolore laudantium consecteur!
                             </p>
-                            <p class="text-center pt-5"><span class="fw-bold">Client:</span> Southwest</p>
-                            <p class="text-center"><span class="fw-bold">Category:</span> website design</p>
                             </div>
-                            <div class="modal-footer">
-                              <button type="button" class="btn btn-warning text-white" data-bs-dismiss="modal">
-                                Close projet</button>
-                            </div>
+                            <div class="modal-footer justify-content-end">
+                              <a href="Formulaire de contact.html">
+                                <button class="btn bg-warning text-white " type="submit">Commander</button></a>
+                              </div>
+              
                           </div>
                         </div>
                       </div>
@@ -350,42 +319,36 @@
                             <p class="fs-6 text-warning fw-bold">Pull-Over Lakers</p>
                                 <p class="text-warning fs-6 fw-bold">100£</p>
                         </div>
-                        <button type="button" class="btn " data-bs-toggle="modal"
-                         data-bs-target="#staticBackdrop8" id="bouton">
+                        <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop8" id="bouton">
                           <i class="fa-solid fa-plus text-warning  i fw-bold fs-6 "></i>
                         </button>
-                        <div class="modal fade" id="staticBackdrop8" data-bs-backdrop="static"
-                         data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" 
-                         aria-hidden="true">
+                        <div class="modal fade" id="staticBackdrop8" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                           <div class="modal-dialog modal-lg">
                             <div class="modal-content">
                               <div class="modal-header">
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" 
-                                aria-label="Close"></button>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                               </div>
                               <div class="modal-body">
                                 <h2 class="text-center text-upercase py-5 text-warning">Pull-Over Lakers</h2>
                                 <div class="w-50 mx-auto">
                                   <img src="Shop4.png" class="w-100" alt="une image">
                                 </div>
-                                <p class="w-50 mx-auto">lorem ipsum dolar sit amet , consecteur adipiscing elit.
-                                   Sunt ut voluptatum eius sapiente , totam reciendis temploribus qui quibusdam
+                                <p class="w-50 mx-auto mt-3 text-warning">lorem ipsum dolar sit amet , consecteur adipiscing elit. Sunt ut voluptatum eius sapiente , totam reciendis temploribus qui quibusdam
                                   sit vero unde , sed incidunt et ea quo dolore laudantium consecteur!
                               </p>
-                              <p class="text-center pt-5"><span class="fw-bold">Client:</span> Southwest</p>
-                              <p class="text-center"><span class="fw-bold">Category:</span> website design</p>
                               </div>
-                              <div class="modal-footer">
-                                <button type="button" class="btn btn-warning text-white" data-bs-dismiss="modal">
-                                  Close projet</button>
-                              </div>
+                              <div class="modal-footer justify-content-end">
+                                <a href="Formulaire de contact.html">
+                                  <button class="btn  bg-warning text-white " type="submit">Commander</button></a>
+                                </div>
+                
                             </div>
                           </div>
                         </div>
                       </div>  
                       </div>
                       </div>
-   <div class="d-flex accueil3">
+        <div class="d-flex accueil3">
           <div class="mada17">
               <div class="card" style="width: 16rem;height:24rem;">
                   <img src="Shop1.png" class="card-img-top w-100" alt="...">
@@ -393,35 +356,28 @@
                     <p class="card-text text-warning fw-bold ">Blousons Nike</p>
                       <p class="fs-6 text-warning fw-bold">60£ </p>
                   </div>
-                  <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop"
-                   id="bouton">
+                  <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="bouton">
                     <i class="fa-solid fa-plus text-warning i fw-bold fs-6 "></i>
                   </button>
-                  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" 
-                  data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                     <div class="modal-dialog modal-xl">
                       <div class="modal-content">
                         <div class="modal-header">
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" 
-                          aria-label="Close"></button>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                          <h2 class="text-center text-upercase py-5">portfolio</h2>
-                          <p class="text-center pb-5">Lorem ipsum is dollar ameet consecteur</p>
                           <div class="w-50 mx-auto">
                             <img src="Shop1.png" class="w-100" alt="une image">
                           </div>
-                          <p class="w-50 mx-auto">lorem ipsum dolar sit amet , consecteur adipiscing elit.
-                             Sunt ut voluptatum eius sapiente , totam reciendis temploribus qui quibusdam
+                          <p class="w-50 mx-auto text-warning">lorem ipsum dolar sit amet , consecteur adipiscing elit. Sunt ut voluptatum eius sapiente , totam reciendis temploribus qui quibusdam
                             sit vero unde , sed incidunt et ea quo dolore laudantium consecteur!
                         </p>
-                        <p class="text-center pt-5"><span class="fw-bold">Client:</span> Southwest</p>
-                        <p class="text-center"><span class="fw-bold">Category:</span> website design</p>
                         </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-warning text-white" data-bs-dismiss="modal">
-                            Close projet</button>
-                        </div>
+                        <div class="modal-footer justify-content-end">
+                          <a href="Formulaire de contact.html">
+                            <button class="btn  bg-warning text-white " type="submit">Commander</button></a>
+                          </div>
+          
                       </div>
                     </div>
                   </div>
@@ -434,34 +390,28 @@
                       <p class="card-text text-warning fw-bold ">Ensemble Nike</p>
                         <p class="fs-6  fw-bold text-warning">67£</p>
                     </div>
-                    <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop9" 
-                    id="bouton">
+                    <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop9" id="bouton">
                       <i class="fa-solid fa-plus text-warning i fw-bold fs-6 "></i>
                     </button>
-                    <div class="modal fade" id="staticBackdrop9" data-bs-backdrop="static" data-bs-keyboard="false" 
-                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal fade" id="staticBackdrop9" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                       <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                           <div class="modal-header">
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-                            </button>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                           </div>
                           <div class="modal-body">
                             <h2 class="text-center text-upercase py-5 text-warning">Ensemble Nike</h2>
                             <div class="w-50 mx-auto">
                               <img src="Shop2.png" class="w-100" alt="une image">
                             </div>
-                            <p class="w-50 mx-auto">lorem ipsum dolar sit amet , consecteur adipiscing elit.
-                               Sunt ut voluptatum eius sapiente , totam reciendis temploribus qui quibusdam
+                            <p class="w-50 mx-auto mt-3 text-warning">lorem ipsum dolar sit amet , consecteur adipiscing elit. Sunt ut voluptatum eius sapiente , totam reciendis temploribus qui quibusdam
                               sit vero unde , sed incidunt et ea quo dolore laudantium consecteur!
                           </p>
-                          <p class="text-center pt-5"><span class="fw-bold">Client:</span> Southwest</p>
-                          <p class="text-center"><span class="fw-bold">Category:</span> website design</p>
                           </div>
-                          <div class="modal-footer">
-                            <button type="button" class="btn btn-warning text-white" data-bs-dismiss="modal">
-                              Close projet</button>
-                          </div>
+                          <div class="modal-footer justify-content-end">
+                            <a href="Formulaire de contact.html">
+                              <button class="btn  bg-warning text-white " type="submit">Commander</button></a>
+                            </div>            
                         </div>
                       </div>
                     </div>
@@ -476,36 +426,30 @@
                           <p class="fs-6 fw-bold text-warning">Pull-Over</p>
                               <p class=" fs-6 fw-bold text-warning">80£</p>
                       </div>
-                      <button type="button" class="btn " data-bs-toggle="modal" 
-                      data-bs-target="#staticBackdrop10" id="bouton">
+                      <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop10" id="bouton">
                         <i class="fa-solid fa-plus text-warning i fw-bold fs-6 "></i>
                       </button>
-                      <div class="modal fade" id="staticBackdrop10" data-bs-backdrop="static" 
-                      data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" 
-                      aria-hidden="true">
+                      <div class="modal fade" id="staticBackdrop10" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                         <div class="modal-dialog modal-lg">
                           <div class="modal-content">
                             <div class="modal-header">
-                              <button type="button" class="btn-close" data-bs-dismiss="modal" 
-                              aria-label="Close"></button>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
                               <h2 class="text-center text-upercase py-5 text-warning">Pull-Over</h2>
                               <div class="w-50 mx-auto">
                                 <img src="Shop3.png"class="w-100" alt="une image">
                               </div>
-                              <p class="w-50 mx-auto">lorem ipsum dolar sit amet , consecteur adipiscing elit.
-                                 Sunt ut voluptatum eius sapiente , totam reciendis temploribus qui quibusdam
+                              <p class="w-50 mx-auto text-warning mt-3">lorem ipsum dolar sit amet , consecteur adipiscing elit. Sunt ut voluptatum eius sapiente , totam reciendis temploribus qui quibusdam
                                 sit vero unde , sed incidunt et ea quo dolore laudantium consecteur!
                             </p>
-                            <p class="text-center pt-5"><span class="fw-bold">Client:</span> Southwest</p>
-                            <p class="text-center"><span class="fw-bold">Category:</span> website design</p>
                             </div>
-                            <div class="modal-footer">
-                              <button type="button" class="btn btn-warning text-white" data-bs-dismiss="modal">
-                                Close projet</button>
+                            <div class="modal-footer justify-content-end">
+                              <a href="Formulaire de contact.html">
+                                <button class="btn bg-warning text-white" type="submit">Commander</button></a>
+                              </div>
+              
                             </div>
-                          </div>
                         </div>
                       </div>
                     </div>
@@ -519,35 +463,29 @@
                             <p class="fs-6 text-warning fw-bold">Pull-Over Lakers</p>
                                 <p class="text-warning fs-6 fw-bold">100£</p>
                         </div>
-                      <button type="button" class="btn " data-bs-toggle="modal" 
-                      data-bs-target="#staticBackdrop11" id="bouton">
+                      <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop11" id="bouton">
                         <i class="fa-solid fa-plus text-warning i fw-bold fs-6 "></i>
                       </button>
-                      <div class="modal fade" id="staticBackdrop11" data-bs-backdrop="static"
-                       data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
-                        aria-hidden="true">
+                      <div class="modal fade" id="staticBackdrop11" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                         <div class="modal-dialog modal-lg">
                           <div class="modal-content">
                             <div class="modal-header">
-                              <button type="button" class="btn-close" data-bs-dismiss="modal" 
-                              aria-label="Close"></button>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
                               <h2 class="text-center text-upercase py-5 text-warning">Pull-Over Lakers</h2>
                               <div class="w-50 mx-auto">
                                 <img src="Shop4.png" class="w-100" alt="une image">
                               </div>
-                              <p class="w-50 mx-auto">lorem ipsum dolar sit amet , consecteur adipiscing elit.
-                                 Sunt ut voluptatum eius sapiente , totam reciendis temploribus qui quibusdam
+                              <p class="w-50 mx-auto mt-3 text-warning">lorem ipsum dolar sit amet , consecteur adipiscing elit. Sunt ut voluptatum eius sapiente , totam reciendis temploribus qui quibusdam
                                 sit vero unde , sed incidunt et ea quo dolore laudantium consecteur!
                             </p>
-                            <p class="text-center pt-5"><span class="fw-bold">Client:</span> Southwest</p>
-                            <p class="text-center"><span class="fw-bold">Category:</span> website design</p>
                             </div>
-                            <div class="modal-footer">
-                              <button type="button" class="btn btn-warning text-white" data-bs-dismiss="modal">
-                                Close projet</button>
-                            </div>
+                            <div class="modal-footer justify-content-end">
+                              <a href="Formulaire de contact.html">
+                                <button class="btn bg-warning text-white" type="submit">Commander</button></a>
+                              </div>
+              
                           </div>
                         </div>
                       </div>
@@ -562,35 +500,29 @@
                           <p class="card-text text-warning fw-bold ">Blousons Nike</p>
                             <p class="fs-6 text-warning fw-bold">60£ </p>
                         </div>
-                        <button type="button" class="btn " data-bs-toggle="modal" 
-                        data-bs-target="#staticBackdrop" id="bouton">
+                        <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="bouton">
                           <i class="fa-solid fa-plus text-warning i fw-bold fs-6 "></i>
                         </button>
-                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
-                         data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" 
-                         aria-hidden="true">
+                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                           <div class="modal-dialog modal-xl">
                             <div class="modal-content">
                               <div class="modal-header">
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" 
-                                aria-label="Close"></button>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                               </div>
                               <div class="modal-body">
                                 <h2 class="text-center text-upercase py-5">portfolio</h2>
                                 <div class="w-50 mx-auto">
                                   <img src="Shop.png" alt="une image">
                                 </div>
-                                <p class="w-50 mx-auto">lorem ipsum dolar sit amet , consecteur adipiscing elit.
-                                   Sunt ut voluptatum eius sapiente , totam reciendis temploribus qui quibusdam
+                                <p class="w-50 mx-auto">lorem ipsum dolar sit amet , consecteur adipiscing elit. Sunt ut voluptatum eius sapiente , totam reciendis temploribus qui quibusdam
                                   sit vero unde , sed incidunt et ea quo dolore laudantium consecteur!
                               </p>
-                              <p class="text-center pt-5"><span class="fw-bold">Client:</span> Southwest</p>
-                              <p class="text-center"><span class="fw-bold">Category:</span> website design</p>
                               </div>
-                              <div class="modal-footer">
-                                <button type="button" class="btn btn-warning text-white"
-                                 data-bs-dismiss="modal">Close projet</button>
-                              </div>
+                              <div class="modal-footer justify-content-end">
+                                <a href="Formulaire de contact.html">
+                                  <button class="btn btn-outline-warning " type="submit">Commander</button></a>
+                                </div>
+                
                             </div>
                           </div>
                         </div>
@@ -603,36 +535,29 @@
                             <p class="card-text text-warning fw-bold ">Ensemble Nike</p>
                               <p class="fs-6  fw-bold text-warning">67£</p>
                           </div>
-                          <button type="button" class="btn " data-bs-toggle="modal"
-                           data-bs-target="#staticBackdrop12" id="bouton">
+                          <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop12" id="bouton">
                             <i class="fa-solid fa-plus text-warning i fw-bold fs-6 "></i>
                           </button>
-                          <div class="modal fade" id="staticBackdrop12" data-bs-backdrop="static"
-                           data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
-                            aria-hidden="true">
+                          <div class="modal fade" id="staticBackdrop12" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                             <div class="modal-dialog modal-lg">
                               <div class="modal-content">
                                 <div class="modal-header">
-                                  <button type="button" class="btn-close" data-bs-dismiss="modal" 
-                                  aria-label="Close"></button>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
                                   <h2 class="text-center text-upercase py-5 text-warning">Ensemble Nike</h2>
                                   <div class="w-50 mx-auto">
                                     <img src="Shop2.png" class="w-100" alt="une image">
                                   </div>
-                                  <p class="w-50 mx-auto text-warning">lorem ipsum dolar sit amet ,
-                                     consecteur adipiscing elit. Sunt ut voluptatum eius sapiente , 
-                                     totam reciendis temploribus qui quibusdam
+                                  <p class="w-50 mx-auto text-warning mt-3">lorem ipsum dolar sit amet , consecteur adipiscing elit. Sunt ut voluptatum eius sapiente , totam reciendis temploribus qui quibusdam
                                     sit vero unde , sed incidunt et ea quo dolore laudantium consecteur!
                                 </p>
-                                <p class="text-center pt-5"><span class="fw-bold">Client:</span> Southwest</p>
-                                <p class="text-center"><span class="fw-bold">Category:</span> website design</p>
                                 </div>
-                                <div class="modal-footer">
-                                  <button type="button" class="btn btn-warning text-white" data-bs-dismiss="modal">
-                                    Close projet</button>
-                                </div>
+                                <div class="modal-footer justify-content-end">
+                                  <a href="Formulaire de contact.html">
+                                    <button class="btn bg-warning text-white" type="submit">Commander</button></a>
+                                  </div>
+                  
                               </div>
                             </div>
                           </div>
@@ -647,36 +572,28 @@
                                 <p class="fs-6 fw-bold text-warning">Pull-Over</p>
                                     <p class=" fs-6 fw-bold text-warning">80£</p>
                             </div>
-                            <button type="button" class="btn " data-bs-toggle="modal"
-                             data-bs-target="#staticBackdrop13" id="bouton">
+                            <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop13" id="bouton">
                               <i class="fa-solid fa-plus text-warning i fw-bold fs-6 "></i>
                             </button>
-                            <div class="modal fade" id="staticBackdrop13" data-bs-backdrop="static" 
-                            data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
-                             aria-hidden="true">
+                            <div class="modal fade" id="staticBackdrop13" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                               <div class="modal-dialog modal-lg">
                                 <div class="modal-content">
                                   <div class="modal-header">
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                     aria-label="Close"></button>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                   </div>
                                   <div class="modal-body">
                                     <h2 class="text-center text-upercase py-5 text-warning">Pull-Over</h2>
                                     <div class="w-50 mx-auto">
                                       <img src="Shop3.png" class="w-100" alt="une image">
                                     </div>
-                                    <p class="w-50 mx-auto mt-2 text-warning">lorem ipsum dolar sit amet , 
-                                      consecteur adipiscing elit. Sunt ut voluptatum eius sapiente , 
-                                      totam reciendis temploribus qui quibusdam
+                                    <p class="w-50 mx-auto mt-3 text-warning">lorem ipsum dolar sit amet , consecteur adipiscing elit. Sunt ut voluptatum eius sapiente , totam reciendis temploribus qui quibusdam
                                       sit vero unde , sed incidunt et ea quo dolore laudantium consecteur!
                                   </p>
-                                  <p class="text-center pt-5"><span class="fw-bold">Client:</span> Southwest</p>
-                                  <p class="text-center"><span class="fw-bold">Category:</span> website design</p>
                                   </div>
-                                  <div class="modal-footer">
-                                    <button type="button" class="btn btn-warning text-white" data-bs-dismiss="modal">
-                                      Close projet</button>
-                                  </div>
+                                  <div class="modal-footer justify-content-end">
+                                    <a href="Formulaire de contact.html">
+                                      <button class="btn  bg-warning text-white " type="submit">Commander</button></a>
+                                    </div>                    
                                 </div>
                               </div>
                             </div>
@@ -690,41 +607,49 @@
                                  </p>
                                   <p class="fs-6 text-warning fw-bold">Pull-Over Lakers</p>
                                       <p class="text-warning fs-6 fw-bold">100£</p>
-                                      <button type="button" class="btn " data-bs-toggle="modal" 
-                                      data-bs-target="#staticBackdrop14" id="bouton">
+                                      <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop14" id="bouton">
                                         <i class="fa-solid fa-plus text-warning ii fw-bold fs-6 "></i>
                                       </button>
-                                      <div class="modal fade" id="staticBackdrop14" data-bs-backdrop="static" 
-                                      data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" 
-                                      aria-hidden="true">
+                                      <div class="modal fade" id="staticBackdrop14" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                                         <div class="modal-dialog modal-lg">
                                           <div class="modal-content">
                                             <div class="modal-header">
-                                              <button type="button" class="btn-close" data-bs-dismiss="modal" 
-                                              aria-label="Close"></button>
+                                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                             </div>
                                             <div class="modal-body">
                                               <h2 class="text-center text-upercase py-5 text-warning">Pull-Over Lakers</h2>
                                               <div class="w-50 mx-auto">
                                                 <img src="Shop4.png" class="w-100" alt="une image">
                                               </div>
-                                              <p class="w-50 mx-auto text-warning mt-2">lorem ipsum dolar sit amet ,
-                                                 consecteur adipiscing elit. Sunt ut voluptatum eius sapiente , 
-                                                 totam reciendis temploribus qui quibusdam
+                                              <p class="w-50 mx-auto text-warning mt-3">lorem ipsum dolar sit amet , consecteur adipiscing elit. Sunt ut voluptatum eius sapiente , totam reciendis temploribus qui quibusdam
                                                 sit vero unde , sed incidunt et ea quo dolore laudantium consecteur!
                                             </p>
-                                            <p class="text-center pt-5"><span class="fw-bold">Client:</span> Southwest</p>
-                                            <p class="text-center"><span class="fw-bold">Category:</span> website design</p>
                                             </div>
-                                            <div class="modal-footer">
-                                              <button type="button" class="btn btn-warning text-white" data-bs-dismiss="modal">
-                                                Close projet</button>
-                                            </div>
+                                            <div class="modal-footer justify-content-end">
+                                              <a href="Formulaire de contact.html">
+                                                <button class="btn  bg-warning text-white " type="submit">Commander</button></a>
+                                              </div>
+                              
                                           </div>
                                         </div>
                                       </div>
                                     </div>                              
                                     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                              </div>
                             </div>
                            </div>
